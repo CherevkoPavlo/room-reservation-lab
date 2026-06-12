@@ -17,7 +17,7 @@ public class InMemoryReservationRepository implements ReservationRepositoryPort 
     public List<Reservation> findByRoomId(String roomId) {
         return database.stream()
                 .filter(r -> r.getRoomId().equals(roomId))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
