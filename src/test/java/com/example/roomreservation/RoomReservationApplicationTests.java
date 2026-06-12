@@ -8,6 +8,7 @@ class RoomReservationApplicationTests {
 
     @Test
     void contextLoads() {
+        // Тест перевіряє успішне завантаження контексту Spring Boot
     }
 
 }
