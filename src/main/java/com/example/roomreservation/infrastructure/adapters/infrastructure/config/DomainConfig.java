@@ -1,4 +1,4 @@
-package com.example.roomreservation.infrastructure.config;
+package com.example.roomreservation.infrastructure.adapters.infrastructure.config;
 
 import com.example.roomreservation.core.ports.in.ReserveRoomUseCase;
 import com.example.roomreservation.core.ports.out.ReservationRepositoryPort;
